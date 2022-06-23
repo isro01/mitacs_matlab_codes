@@ -3,7 +3,7 @@ classdef allparams
 % anchor poses
     properties
         anchor1 = [0;0;0];
-        anchor2 = [3;0;0];
+        anchor2 = [1;0;0];
         anchor3 = [0;1;0];
 
         % ground ruth poses to be loaded from sensor output file of cf
