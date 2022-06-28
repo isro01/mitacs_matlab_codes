@@ -1,0 +1,2 @@
+theta = linspace(0,2*pi); r=1;
+xc = r*cos(theta); yc = r*sin(theta);
