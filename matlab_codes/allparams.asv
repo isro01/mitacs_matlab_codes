@@ -7,15 +7,15 @@ classdef allparams
         anchor3 = [0;3;0];
 
         % ground ruth poses to be loaded from sensor output file of cf
-%         xg1=0; yg1=0; zg1=0;
-%         xg2=0; yg2=0; zg2=0;
+        xg1=0; yg1=0; zg1=0;
+        xg2=0; yg2=0; zg2=0;
 
         % distances we have from UWB sensors dij where i is drone and j is anchor
-%         d11 = 0;
-%         d13 = 0;
-%         d22 = 0;
-%         d23 = 0;
-%         q12 = 0; q21 = 0;%relative pose between drones
+        d11 = 0;
+        d13 = 0;
+        d22 = 0;
+        d23 = 0;
+        q12 = 0; q21 = 0;%relative pose between drones
         
         % for log file in excel format
         filename = 'test.xlsx';
